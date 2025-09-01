@@ -1,0 +1,780 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    background-color: rgb(55, 55, 55);
+}
+
+.list{
+    display: flex;
+    color: white !important;
+   
+    font-size: 18px;
+    font-weight: bold;
+    justify-content: space-around;
+    gap: 30px;
+}
+
+.menu ul li{
+    list-style: none;
+}
+
+.image{
+    background-color: rgb(197, 2, 2);
+}
+
+.hero{
+    background : linear-gradient(rgba(128, 128, 128, 0.602),rgba(128, 128, 128, 0.602)), url(./Assets/emirates-premium-economy-seat-w1920x480.jpg) no-repeat center center/cover;
+    height: 600px;
+    width: 100%;
+    margin-bottom: 420px;
+   
+    
+}
+
+h3{
+    
+    color: white;
+    font-size: 30px;
+    font-weight: medium;
+}
+.header{
+    padding-top: 80px;
+    margin-left: 100px;
+}
+
+h1{
+    margin-left: 100px;
+    color: white;
+    font-size: 75px;
+    font-style: italic;
+}
+
+.head{
+    margin-left: 480px;
+}
+
+.fly{
+    padding-top: 70px;
+    margin-left: 1200px;
+}
+
+.btn{
+    width: 150px;
+    height: 45px;
+    margin-left: 100px;
+    border: none;
+    color: white;
+    background-color: rgb(212, 4, 4);
+    font-size: 18px;
+    font-weight: 600;
+    margin-left: 668px;
+    margin-top: 15px;
+}
+
+.flight-box {
+  background: white;
+  padding: 30px;
+  max-width: 1200px;
+  margin: 40px auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.1);
+  
+}
+
+
+.main-tabs {
+  display: flex;
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.tab {
+  flex: 1;
+  padding: 10px 15px;
+  text-align: center;
+  cursor: pointer;
+  border: 2px solid transparent;
+  color: #555;
+}
+
+.tab.active {
+  border-bottom: 2px solid #b90000;
+  color: #b90000;
+  font-weight: 600;
+}
+
+/* Sub Tabs */
+.sub-tabs {
+  display: flex;
+  margin-bottom: 20px;
+  gap: 10px;
+}
+
+.sub-tab {
+  padding: 8px 20px;
+  border: 1px solid #ccc;
+  background: white;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.sub-tab.active {
+  border-color: #b90000;
+  color: #b90000;
+  font-weight: bold;
+}
+
+/* Form */
+.flight-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  align-items: center;
+}
+
+.form-row input {
+  padding: 20px ;
+  flex: 1;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  min-width: 200px;
+  max-width: 500px;
+  font-size: 18px;
+  
+}
+
+.continue-btn {
+  padding: 18px 45px;
+  background-color: #b90000;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 18px;
+  font-weight: bold;
+  
+}
+
+
+.advanced-links {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #555;
+  margin-left: 825px;
+  margin-bottom: 20px;
+}
+
+.advanced-links a {
+  color: #b90000;
+  text-decoration: none;
+ text-align: right;
+}
+
+.parent{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.child{
+    width: 155px;
+    height: 70px;
+    border: 1px solid;
+    border-color: lightgrey;
+    text-align: center;
+    /* font-weight: bold; */
+    color: #555;
+    font-size: 16px;
+   padding-top: 70px;
+   text-align: center;
+   text-decoration: underline;
+  
+  
+}
+
+
+
+.off{
+  margin-top: 500px;
+}
+
+.features{
+  text-align: center;
+  font-size: 24px;
+  /* margin-top: 100px; */
+}
+
+.destination{
+   width: 100%;
+    height: 700px;
+    display: grid;
+    grid-template-columns: repeat(3, 380px);
+    grid-template-rows: repeat(2, 280px);
+    justify-content: center;
+    align-content: center;
+    gap: 50px;
+    margin-top: 0px;
+}
+
+.main{
+   box-shadow: 2px 2px 2px 2px rgb(174, 174, 174);
+}
+
+.main:hover {
+   box-shadow: 3px 3px 3px 3px rgb(174, 174, 174);
+   transform: scale(1.01);
+}
+
+.main img{
+  width: 100%;
+  height: 40%;
+    
+     
+}
+
+.country{
+  font-weight: bold;
+  color: darkgrey;
+  text-align: center;
+  letter-spacing: 5px;
+  margin-top: 20px;
+}
+
+.location{
+  text-align: center;
+  font-weight: bold;
+  font-size: 24px;
+  color: #333;
+  margin-top: 5px;
+}
+
+.position{
+  text-align: center;
+  margin-top: 8px;
+  color: #333;
+
+}
+
+.value{
+  text-align: center;
+  font-weight: bolder;
+  font-size: 18px;
+  margin-top: 8px;
+  color: #333;
+}
+
+.links {
+  
+  font-size: 16px;
+  color: #333;
+  margin-left: 350px;
+ 
+}
+
+.fares{
+  height: 50px;
+  width: 250px;
+  background-color: white;
+  font-weight: bold;
+  font-size: 16px;
+  color: #333;
+  box-shadow: 2px 2px 4px rgb(174, 174, 174);
+  margin-left: 60px;
+  margin-right: 60px;
+  border-radius: 3px;
+}
+
+.term{
+  margin-left: 620px;
+  margin-top: 10px;
+}
+
+.links a{
+  color: #333;
+}
+
+.explore{
+    background : url(./Assets/group-of-international-students-sitting-outdoors-and-studying-pb-w1920x480.jpg) no-repeat center center/cover;
+    height: 500px;
+    width: 100%;
+    margin-top: 70px;
+}
+
+.line{
+  width: 80px;
+  border: solid 1px;
+   border-color: #b90000;
+   margin-left: 680px;
+   margin-top: 8px;
+
+   
+}
+
+.world{
+  padding-top: 120px;
+  font-weight: bold;
+  color: darkgrey;
+  text-align: center;
+  letter-spacing: 5px;
+  
+}
+
+.student{
+  color: white;
+  font-size: 70px;
+  font-weight: bold;
+  font-style: italic;
+  text-align: center;
+}
+
+.extra{
+  text-align: center;
+  color: white;
+  font-size: 18px;
+  
+}
+
+.learn{
+  margin-top: 120px;
+  margin-left: 650px;
+   height: 50px;
+  width: 180px;
+  background-color: white;
+  font-weight: bold;
+  font-size: 16px;
+  color: #333;
+  border-radius: 3px;
+  
+}
+
+.flying{
+  margin-top: 100px;
+  font-weight: bold;
+  color: #535353;
+  text-align: center;
+  letter-spacing: 5px;
+  
+}
+
+.an{
+  
+  font-size: 60px;
+  font-weight: bold;
+  font-style: italic;
+  text-align: center;
+  color: #333;
+}
+
+.plan{
+  text-align: center;
+  color: #333;
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.grid{
+  width: 1200px;
+  height: 600px;
+  display: grid;
+  grid-template-columns: repeat(4, 280px);
+  grid-template-rows: repeat(2, 300px);
+  gap: 20px;
+  padding: 20px;
+  margin-top: 50px;
+  margin-left: 120px;
+}
+
+.grid-child{
+  border: 1px solid gray;
+  box-shadow: 1px 1px 1px 1px gray;
+  border-radius: 5px;
+}
+
+.grid-child1{
+     grid-column-start: 1;
+     grid-column-end: 3;
+     grid-row-start: 1;
+     grid-row-end: 3;
+     background-image: url(https://c.ekstatic.net/ecl/destinations/middle-east/united-arab-emirates/dubai-downtown-skyline-at-sunset-d800x600.jpg?h=7vZ6mr2XU87yHyZCOdmZhw);
+     background-position: center;
+     background-size: cover;
+     border: 1px solid gray;
+  /* box-shadow: 1px 1px 1px 1px gray; */
+  border-radius: 5px;
+  
+}
+.grid-child1:hover{
+  box-shadow: 3px 3px 3px 3px rgb(174, 174, 174);
+   transform: scale(1.01);
+}
+
+
+.dubai{
+  padding-left: 30px;
+  margin-top: 50px;
+  color: #333;
+  font-weight: bolder;
+  font-size: 12px;
+  letter-spacing: 5px;
+}
+
+.exp{
+  font-size: 40px;
+  padding-left: 30px;
+  font-weight: bold;
+  padding-top: 15px;
+}
+
+.UNDER{
+   margin-left: 30px;
+  width: 65px;
+  border: 1px solid #b90000;
+  position: relative;
+  margin-top: 10px;
+}
+
+.more{
+  padding-left: 30px;
+  color: #333;
+  padding-top: 10px;
+}
+
+.under{
+   margin-left: 105px;
+  width: 65px;
+  border: 1px solid #b90000;
+  position: relative;
+  margin-top: 5px;
+}
+
+.MORE{
+  text-align: center;
+  color: #333;
+  padding-top: 8px;
+}
+
+.place{
+  
+  margin-top: 20px;
+  color: #333;
+  font-weight: bolder;
+  font-size: 10px;
+  letter-spacing: 3px;
+  text-align: center;
+  
+}
+
+.style{
+  font-size: 22px;
+  
+  font-weight: bold;
+  padding-top: 15px;
+  text-align: center;
+}
+
+.more{
+  
+ font-size: 14px;
+  color: #333;
+  padding-top: 10px;
+}
+
+.grid-childchild-1{
+  background-image: url(https://c.ekstatic.net/ecl/food/first-class-dessert-w800x600.jpg?h=Wxf9CC7WhFAck7s5_QF1oA);
+  background-position: center;
+     background-size: cover;
+     border: 1px solid gray;
+     /* box-shadow: 1px 1px 2px 1px gray; */
+  border-radius: 5px;
+}
+
+.grid-childchild-1:hover{
+  box-shadow: 3px 3px 3px 3px rgb(174, 174, 174);
+   transform: scale(1.01);
+}
+
+.grid-childchild-2{
+   background-image: url(https://c.ekstatic.net/ecl/food/business-class-meal-w800x600.jpg?h=MvOq0t5vAseWLn6fdsIGVg);
+  background-position: center;
+     background-size: cover;
+     border: 1px solid gray;
+     /* box-shadow: 1px 1px 2px 1px gray; */
+  border-radius: 5px;
+}
+
+.grid-childchild-2:hover{
+  box-shadow: 3px 3px 3px 3px rgb(174, 174, 174);
+   transform: scale(1.01);
+}
+
+.grid-childchild-3{
+   background-image: url(https://c.ekstatic.net/ecl/food/premium-economy-menu-w800x600.jpg?h=nUi11H3iz4bSSPJ0xdtGxQ);
+  background-position: center;
+     background-size: cover;
+     border: 1px solid gray;
+     /* box-shadow: 1px 1px 2px 1px gray; */
+  border-radius: 5px;
+}
+
+.grid-childchild-3:hover{
+  box-shadow: 3px 3px 3px 3px rgb(174, 174, 174);
+   transform: scale(1.01);
+}
+
+.grid-childchild-4{
+   background-image: url(https://c.ekstatic.net/ecl/food/economy-class-chocolate-dessert-w800x600.jpg?h=8IPeHQHGlgz6DFNMUYc9bQ);
+  background-position: center;
+     background-size: cover;
+     border: 1px solid gray;
+     /* box-shadow: 1px 1px 2px 1px gray; */
+  border-radius: 5px;
+  
+}
+
+.grid-childchild-4:hover{
+  box-shadow: 3px 3px 3px 3px rgb(174, 174, 174);
+   transform: scale(1.01);
+}
+
+.about{
+  font-size: 40px;
+  font-weight: bold;
+  font-style: italic;
+  text-align: center;
+  color: #333;
+  margin-top: 60px;
+}
+
+.history{
+  font-size: 16px;
+  color: #333;
+  padding-top: 10px;
+  text-align: center;
+}
+
+.flex{
+  /* width: 100%; */
+  height: 210px;
+  display: flex;
+   justify-content: center;
+  
+  gap: 50px;
+  margin-top: 40px;
+  margin-left: 60px ;
+}
+
+.flex-child{
+  height: 200px;
+  border: 1px solid;
+  width: 200px;
+  border-radius: 50%;
+}
+
+.flex-child1{
+  height: 200px;
+  /* border: 1px solid; */
+  width: 200px;
+  border-radius: 50%;
+  background-image: url(https://c.ekstatic.net/ecl/agent-portal/a380-sky-view-w300x300.jpg?h=sBnzkrJJvKVp6g8XwpcDoA);
+  background-position: center;
+     background-size: cover;
+}
+
+.flex-child1:hover{
+  transform: scale(1.1);
+  box-shadow: 2px 2px 2px 2px darkgray;
+}
+
+.flex-child2{
+  height: 200px;
+  /* border: 1px solid; */
+  width: 200px;
+  border-radius: 50%;
+  background-image: url(https://c.ekstatic.net/ecl/destinations/africa/south-africa/sunlight-baths-the-blyde-river-canyon-w300x300.jpg?h=Dy3u7WDNZeGj8figwrr98w);
+  background-position: center;
+     background-size: cover;
+}
+
+.flex-child2:hover{
+  transform: scale(1.1);
+  box-shadow: 2px 2px 2px 2px darkgray;
+}
+
+.flex-child3{
+  height: 200px;
+  /* border: 1px solid; */
+  width: 200px;
+  border-radius: 50%;
+  background-image: url(https://c.ekstatic.net/ecl/emirates-staff/ground-staff/emirates-group-staff-group-photo-m300x300.jpg?h=uwsAa20y9RhQZSteKnIqmw);
+  background-position: center;
+     background-size: cover;
+}
+
+.flex-child3:hover{
+  transform: scale(1.1);
+  box-shadow: 2px 2px 2px 2px darkgray;
+}
+
+.flex-child4{
+  height: 200px;
+  /* border: 1px solid; */
+  width: 200px;
+  border-radius: 50%;
+  background-image: url(https://c.ekstatic.net/ecl/about-us/family-planting-tree-w300x300.jpg?h=ar8-hQpf-unRHqmjJ_gsRA);
+  background-position: center;
+     background-size: cover;
+}
+
+.flex-child4:hover{
+  transform: scale(1.1);
+  box-shadow: 2px 2px 2px 2px darkgray;
+}
+
+.our{
+  display: flex;
+  gap: 170px;
+ text-decoration: underline;
+ font-weight: bold;
+ margin-left: 320px;
+ margin-top: 20px;
+}
+
+.footer{
+  background-color: #333;
+  height: 1000px;
+  margin-top: 100px;
+}
+
+.sec1{
+  display: flex;
+  /* justify-content: center; */
+  gap: 170px;
+  color: white;
+  padding-top: 60px;
+  margin-left: 100px;
+}
+
+.sec2{
+  font-weight: bold;
+  font-size: 20px;
+  padding-bottom: 15px;
+}
+.footer li{
+  list-style: none;
+  color: #a5a5a5 ;
+}
+
+.foot{
+  filter: opacity(10%);
+  margin-top: 30px;
+  width: 1200px;
+  align-items: center;
+  margin-left: 100px;
+}
+
+.sec11{
+  display: flex;
+  /* justify-content: center; */
+  gap: 90px;
+  color: white;
+  padding-top: 60px;
+  margin-left: 100px;
+}
+
+.sec22{
+  margin-left: 40px;
+}
+
+.sec33{
+  margin-left: 45px;
+}
+
+.sec12{
+  display: flex;
+  /* justify-content: center; */
+  gap: 100px;
+  color: white;
+  padding-top: 60px;
+  margin-left: 100px;
+}
+
+.e-btn{
+  /* width: 120px; */
+  padding-right: 90px;
+  height: 45px;
+  padding-left: 20px;
+  font-size: 16px;
+  border-radius: 3px;
+  color: #333;
+  background-color: white;
+  border: none;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.s-btn{
+  padding-right: 25px;
+  padding-left: 25px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 16px;
+  border-radius: 3px;
+  color: white;
+  border: 1px solid white;
+  font-weight: bold;
+  margin-left: 10px;
+  margin-top: 15px;
+}
+
+.un{
+  text-decoration: underline;
+  margin-top: 5px;
+}
+
+.policy{
+  text-decoration: underline;
+}
+
+.images{
+  margin-top: 60px;
+}
+
+.svg{
+  margin-top: 10px;
+}
+
+.foote{
+  filter: opacity(10%);
+  margin-top: 60px;
+  width: 1200px;
+  align-items: center;
+  margin-left: 100px;
+}
+
+.over{
+  display: flex;
+  gap: 10px;
+  /* margin-left: 100px; */
+  padding-left: 100px; 
+  /* margin-top: 30px; */
+  padding-top: 30px;
+  /* max-width: 800px; */
+  /* line-break: 500px; */
+}
